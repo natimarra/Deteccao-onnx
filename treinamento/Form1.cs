@@ -76,7 +76,7 @@ namespace treinamento
         {
             using var openFileDialog = new OpenFileDialog
             {
-                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp",
+                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp", 
                 Title = "Selecione um arquivo de imagem"
             };
 
