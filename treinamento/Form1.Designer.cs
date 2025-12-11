@@ -48,7 +48,7 @@
             // 
             // btnLoadImage
             // 
-            btnLoadImage.Location = new Point(642, 77);
+            btnLoadImage.Location = new Point(695, 77);
             btnLoadImage.Name = "btnLoadImage";
             btnLoadImage.Size = new Size(129, 51);
             btnLoadImage.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btnDetect
             // 
-            btnDetect.Location = new Point(642, 134);
+            btnDetect.Location = new Point(695, 134);
             btnDetect.Name = "btnDetect";
             btnDetect.Size = new Size(129, 66);
             btnDetect.TabIndex = 2;
@@ -68,23 +68,23 @@
             // 
             // extBoxConf
             // 
-            extBoxConf.Location = new Point(652, 44);
+            extBoxConf.Location = new Point(695, 44);
             extBoxConf.Name = "extBoxConf";
-            extBoxConf.Size = new Size(110, 27);
+            extBoxConf.Size = new Size(120, 27);
             extBoxConf.TabIndex = 3;
             // 
             // lbResults
             // 
             lbResults.FormattingEnabled = true;
-            lbResults.Location = new Point(661, 216);
+            lbResults.Location = new Point(642, 216);
             lbResults.Name = "lbResults";
-            lbResults.Size = new Size(110, 104);
+            lbResults.Size = new Size(221, 104);
             lbResults.TabIndex = 4;
             // 
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(735, 406);
+            lblStatus.Location = new Point(25, 408);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(53, 20);
             lblStatus.TabIndex = 5;
@@ -94,7 +94,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(875, 450);
             Controls.Add(lblStatus);
             Controls.Add(lbResults);
             Controls.Add(extBoxConf);
@@ -103,6 +103,7 @@
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
