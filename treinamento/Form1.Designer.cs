@@ -78,7 +78,7 @@
             lbResults.FormattingEnabled = true;
             lbResults.Location = new Point(642, 216);
             lbResults.Name = "lbResults";
-            lbResults.Size = new Size(221, 104);
+            lbResults.Size = new Size(221, 84);
             lbResults.TabIndex = 4;
             // 
             // lblStatus
